@@ -18,7 +18,7 @@ describe(
 describe(
     "GTest测试---Pass 3...n---",function () {
         it("Pass 3...n Should Return GTestN", function () {
-            expect("GTestN").toEqual(GTest(3));
+            expect("GTestN").toEqual(GTest(4));
         });
     }
 );
