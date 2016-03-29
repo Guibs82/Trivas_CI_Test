@@ -1,6 +1,6 @@
 language: node_js
 node_js:
     - "0.10"
-script:
-    -"npm install karma"
-    -"npm install jasmine"
+script: karma start karma.conf.js
+before_script:
+    - npm install karma install jasmine
